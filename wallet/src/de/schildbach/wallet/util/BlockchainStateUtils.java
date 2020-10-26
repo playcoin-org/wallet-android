@@ -18,7 +18,7 @@
 package de.schildbach.wallet.util;
 
 import android.content.Context;
-import androidx.annotation.Nullable;
+import javax.annotation.Nullable;
 import android.text.format.DateUtils;
 
 import de.schildbach.wallet.data.BlockchainState;

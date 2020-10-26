@@ -1,6 +1,6 @@
 package de.schildbach.wallet.rates;
 
-import androidx.annotation.Nullable;
+import javax.annotation.Nullable;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

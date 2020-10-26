@@ -27,7 +27,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
+import javax.annotation.Nullable;
 import androidx.annotation.StringRes;
 
 import de.schildbach.wallet_test.R;

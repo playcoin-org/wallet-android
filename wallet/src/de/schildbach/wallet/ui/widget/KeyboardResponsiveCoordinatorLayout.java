@@ -20,7 +20,7 @@ package de.schildbach.wallet.ui.widget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Rect;
-import androidx.annotation.Nullable;
+import javax.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.view.View;

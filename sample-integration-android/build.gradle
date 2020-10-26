@@ -8,7 +8,8 @@ dependencies {
     implementation(project(':integration-android')) {
         exclude(group: 'com.google.android', module: 'android')
     }
-    implementation "org.dashj:dashj-core:$dashjVersion"
+//    implementation "org.dashj:dashj-core:$dashjVersion"
+    implementation fileTree(dir: "/Users/Robert/projects/playcoinj/core/", includes: ['/**/*.jar'])
     implementation 'androidx.multidex:multidex:2.0.1'
 }
 

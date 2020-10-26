@@ -31,8 +31,10 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.3.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation "org.dashj:dashj-core:$dashjVersion"
+//    implementation "org.dashj:dashj-core:$dashjVersion"
+    implementation fileTree(dir: "/Users/Robert/projects/playcoinj/core/", includes: ['/**/*.jar'])
     implementation 'com.scottyab:secure-preferences-lib:0.1.7'
+    implementation 'org.slf4j:slf4j-api:1.7.30'
 
     implementation project(path: ':common')
     implementation project(path: ':ui-redesign')

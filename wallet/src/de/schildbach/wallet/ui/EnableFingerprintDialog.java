@@ -25,7 +25,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import javax.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.os.CancellationSignal;
 import androidx.fragment.app.DialogFragment;
